@@ -5,6 +5,7 @@ After the user won the game or exhausted all of their attempts, the site will lo
 During the game, the user's incorrect guesses are logged to prevent duplicating a wrong answer.
 
 This assignment required us to use the Javascript lessons we've learned in class including, but not limited to:
+    
     -Javascript Syntax
     
     -Functions
