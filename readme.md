@@ -6,10 +6,15 @@ During the game, the user's incorrect guesses are logged to prevent duplicating 
 
 This assignment required us to use the Javascript lessons we've learned in class including, but not limited to:
     -Javascript Syntax
+    
     -Functions
+    
     -Use of onKeyUp event listeners
+    
     -.push to array
-    -getDocumentbyID statements
-    -if/else if/else conditional statements
+   
+   -getDocumentbyID statements
+   
+   -if/else if/else conditional statements
 
 =============PER README INSTRUCTIONS: THIS ASSIGNMENT WAS ALSO PUSHED TO 'BOOTSTRAP PORTFOLIO' REPO================
