@@ -13,8 +13,8 @@ This assignment required us to use the Javascript lessons we've learned in class
     
     -.push to array
    
-   -getDocumentbyID statements
+    -getDocumentbyID statements
    
-   -if/else if/else conditional statements
+    -if/else if/else conditional statements
 
 =============PER README INSTRUCTIONS: THIS ASSIGNMENT WAS ALSO PUSHED TO 'BOOTSTRAP PORTFOLIO' REPO================
