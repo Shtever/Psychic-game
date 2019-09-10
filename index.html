@@ -11,6 +11,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -20,15 +23,41 @@
     <title>Get outta my head!!!!</title>
 </head>
 <body>
-    <h1>The Psychic Game</h1>
+    <div><h1>The Psychic Game</h1>
+        
     <hr/>
 
-    <p class="button">Guess what letter I'm thinking of</p>
+    <p>Guess what letter I'm thinking of</p>
 
 
-    <p>Wins:<span id="win">0</span></p>
-    <p>Losses:<span id="loss">0</span></p>
-    <p>Guesses Left:<span id="guessLeft">9</span></p>
-    <p>Your Guesses So Far:<span id="letterGuess"></span></p>
+    <p class="win">Wins:<span id="win">0</span></p>
+    <p class="los">Losses:<span id="loss">0</span></p>
+    <p class="gL">Guesses Left:<span id="guessLeft">9</span></p>
+    <p class="soFar">Your Guesses So Far:<span id="letterGuess"></span></p>
+
+    <br><audio id="myAudio">
+        <source src="assets/Audio/Nightcall.mp3" type="audio/ogg">
+        <source src="assets/Audio/Nightcall.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+      <button onclick="playAudio()" type="button">Play Audio</button>
+      <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+      
+      <script>
+      var x = document.getElementById("myAudio"); 
+      
+      function playAudio() { 
+        x.play(); 
+      } 
+      
+      function pauseAudio() { 
+        x.pause(); 
+      } 
+      </script>
+    <footer class="footer">Steve McMillen UT Austin Coding Bootcamp 2019</footer>
+      </body>
+      </html>
+      
 </body>
 </html>

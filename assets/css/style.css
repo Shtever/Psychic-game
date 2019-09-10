@@ -1,0 +1,72 @@
+body {
+    background-color: slategray;
+    background-image: url(https://wallpapercave.com/wp/wp4041965.jpg)
+}
+
+
+
+div {
+    background-color: black;
+    margin: 25px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: hotpink;
+    font-size: 100px;
+    transition-duration: 2s
+
+}
+
+h1:hover {
+    color: aqua;
+    transition-duration: 2s
+}
+
+p {
+    text-align: center;
+    font-weight: 900;
+    color: yellow
+}
+
+#win {
+    color: hotpink
+}
+
+.win {color:aqua;
+}
+
+#loss {
+    color: hotpink;
+}
+
+.los {
+    color: aqua;
+}
+
+#guessLeft {
+    color: hotpink
+}
+
+.gL {
+    color: aqua;
+}
+
+#letterGuess {
+    color: hotpink;
+}
+
+.soFar {
+    color: aqua;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+  }
