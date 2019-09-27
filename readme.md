@@ -1,3 +1,5 @@
+https://shtever.github.io/Psychic-game/
+
 In this assignment, we were tasked with creating a game in which the user would have a set number of attempts to guess a randomly chosen letter of the alphabet.
 
 After the user won the game or exhausted all of their attempts, the site will log a win or loss.
